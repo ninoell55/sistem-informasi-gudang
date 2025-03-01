@@ -1,40 +1,38 @@
-🏭 Sistem Informasi Gudang
-Sistem Informasi Gudang adalah aplikasi berbasis web yang membantu mengelola stok barang, pemasok, pembelian, penggunaan barang, dan laporan secara efisien. Dibangun menggunakan PHP Native dan MySQL, dengan tampilan modern berkat Tailwind CSS.
+# Sistem Informasi Gudang
 
-✨ Fitur Utama
-✅ Manajemen Barang – Tambah, edit, hapus, dan cek stok barang dengan mudah.
-✅ Kelola Pembelian – Input data pembelian barang dari supplier.
-✅ Kelola Penggunaan – Catat penggunaan barang dalam sistem.
-✅ Laporan Gudang – Cetak laporan harian dan bulanan untuk melihat stok akhir.
-✅ Otentikasi Pengguna – Login dan registrasi untuk mengamankan akses.
+Sistem Informasi Gudang adalah aplikasi berbasis web yang dirancang untuk mengelola data persediaan barang, pembelian, penggunaan, serta laporan stok barang dalam gudang.
 
-📂 Struktur Folder
-bash
-Copy
-Edit
-/config          -> Konfigurasi database  
-/auth           -> Halaman login & registrasi  
-/dashboard      -> Halaman utama admin  
-/barang         -> Manajemen barang  
-/pembelian      -> Kelola pembelian barang  
-/penggunaan     -> Kelola penggunaan barang  
-/laporan        -> Cetak laporan harian & bulanan  
+## Fitur Utama
+- **Manajemen Barang**: Tambah, edit, dan hapus data barang.
+- **Manajemen Supplier**: Mengelola data supplier barang.
+- **Pembelian Barang**: Mencatat transaksi pembelian barang.
+- **Penggunaan Barang**: Mencatat penggunaan barang dari gudang.
+- **Cek Persediaan**: Menampilkan stok barang berdasarkan kategori.
+- **Laporan Gudang**: Menyediakan laporan harian dan bulanan.
+- **Autentikasi Pengguna**: Login dan registrasi pengguna.
 
-⚡ Teknologi yang Digunakan
-PHP Native – Backend utama sistem
-MySQL – Database untuk menyimpan data
-Tailwind CSS – Desain UI modern dan responsif
+## Teknologi yang Digunakan
+- **PHP Native** (Tanpa Framework)
+- **MySQL** (phpMyAdmin untuk manajemen database)
+- **Tailwind CSS** (Untuk tampilan yang responsif dan modern)
+- **JavaScript** (Untuk interaksi dinamis pada halaman)
 
-🚀 Cara Instalasi
-1️⃣ Clone repositori ini
+## Instalasi
+1. Clone repository ini ke lokal:
+   ```sh
+   git clone https://github.com/username/sistem-informasi-gudang.git
+   ```
+2. Buat database baru di phpMyAdmin dan impor file `database.sql`.
+3. Edit file konfigurasi database di `config/config.php`.
+4. Jalankan server lokal menggunakan XAMPP atau lainnya.
+5. Akses aplikasi melalui browser: `http://localhost/sistem-informasi-gudang`
 
-git clone https://github.com/username/sistem-informasi-gudang.git
-2️⃣ Buat database di MySQL dan import file database.sql
-3️⃣ Konfigurasi database di config/config.php
-4️⃣ Jalankan di localhost menggunakan XAMPP atau server lainnya
+## Kontributor
+- **[Nama Kamu]** (Developer)
 
-📜 Lisensi
-Proyek ini dibuat untuk pembelajaran dan pengembangan lebih lanjut. Silakan gunakan dan modifikasi sesuai kebutuhan.
+## Lisensi
+Proyek ini dibuat untuk keperluan pribadi dan edukasi. Silakan gunakan dan kembangkan sesuai kebutuhan.
 
-🎯 Let's optimize warehouse management! 🚀
+---
+💡 *Jangan lupa untuk memberikan ⭐ di repository ini jika proyek ini bermanfaat!*
 
